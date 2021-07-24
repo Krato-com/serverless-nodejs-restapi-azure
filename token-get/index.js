@@ -5,6 +5,6 @@ module.exports = async function (context, req) {
     let token = tokenService.getJwtToken(context);        
     context.res = {
         status: 200,
-        body: { jwttoken: token }
+        body: token
     };
 };
