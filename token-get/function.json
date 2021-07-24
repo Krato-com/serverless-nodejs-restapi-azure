@@ -5,8 +5,10 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "methods": ["delete"],
-      "route": "todo/{id}"
+      "methods": [
+        "get"
+      ],
+      "route": "jwttoken"
     },
     {
       "type": "http",

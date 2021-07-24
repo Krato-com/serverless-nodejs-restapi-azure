@@ -3,6 +3,10 @@
   "Values": {
     "AzureWebJobsStorage": "",
     "FUNCTIONS_WORKER_RUNTIME": "node",
-    "AzureWebJobs.HttpTrigger1.Disabled": "true"
+    "AzureWebJobs.HttpTrigger1.Disabled": "true",
+    "ExpireTime": 900,
+    "ApiKey": "7ed6538fef7a02301de6a4df9771437f",
+    "Issuer": "https://apiv2.rapidfunnel.com",
+    "HmacKey": "A77E0BFA498443347FF139127D098EA74132191FD9CDEE48C077FCC981256C5060C302C678DB0228C385F7A31ED62B8DE70E63ADEB8724AD0FCE0F751E68F71E=="    
   }
 }
